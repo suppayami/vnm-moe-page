@@ -8,7 +8,15 @@
 
     <url>
         <loc>http://vnm.yami.moe/2017/11/15/quick-save/</loc>
-        <lastmod>2017-11-14T23:02:58.408Z</lastmod>
+        <lastmod>2017-11-16T23:00:57.781Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://vnm.yami.moe/2017/11/17/core-engine/</loc>
+        <lastmod>2017-11-16T23:00:04.966Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

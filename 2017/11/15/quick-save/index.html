@@ -12,12 +12,12 @@
 <meta property="og:title" content="Quick Save">
 <meta property="og:url" content="http://vnm.yami.moe/2017/11/15/quick-save/index.html">
 <meta property="og:site_name" content="Moe Engine">
-<meta property="og:description" content="IntroductionThis extension provides Quick Save and Quick Load functions to the engine, which allows users to either quick save and quick load by using Commands or using Script Call in UI. Download &amp;am">
+<meta property="og:description" content="IntroductionThis extension provides Quick Save and Quick Load functions to the engine, which allows users to either quick save and quick load by using Commands or using Script Call in UI.   Requires C">
 <meta property="og:locale" content="English">
-<meta property="og:updated_time" content="2017-11-14T23:02:58.408Z">
+<meta property="og:updated_time" content="2017-11-16T23:00:57.781Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Quick Save">
-<meta name="twitter:description" content="IntroductionThis extension provides Quick Save and Quick Load functions to the engine, which allows users to either quick save and quick load by using Commands or using Script Call in UI. Download &amp;am">
+<meta name="twitter:description" content="IntroductionThis extension provides Quick Save and Quick Load functions to the engine, which allows users to either quick save and quick load by using Commands or using Script Call in UI.   Requires C">
     
     
         
@@ -69,6 +69,8 @@
     <span id="actions">
       <ul>
         
+        <li><a class="icon" href="/2017/11/17/core-engine/"><i class="fa fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
         
         <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" href="#"><i class="fa fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -95,7 +97,7 @@
 
     </div>
     <div id="toc">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Introduction"><span class="toc-number">1.</span> <span class="toc-text">Introduction</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Download-amp-Install"><span class="toc-number">2.</span> <span class="toc-text">Download & Install</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#How-to-use"><span class="toc-number">3.</span> <span class="toc-text">How to use</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Added-commands"><span class="toc-number">3.1.</span> <span class="toc-text">Added commands</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Layout-Actions"><span class="toc-number">3.2.</span> <span class="toc-text">Layout Actions</span></a></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Introduction"><span class="toc-number">1.</span> <span class="toc-text">Introduction</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Download-amp-Install"><span class="toc-number">2.</span> <span class="toc-text">Download & Install</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#How-to-use"><span class="toc-number">3.</span> <span class="toc-text">How to use</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Added-commands"><span class="toc-number">3.1.</span> <span class="toc-text">Added commands</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Layout-Actions"><span class="toc-number">3.2.</span> <span class="toc-text">Layout Actions</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Version"><span class="toc-number">4.</span> <span class="toc-text">Version</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#v1-0-0-0-2017-11-15"><span class="toc-number">4.1.</span> <span class="toc-text">v1.0.0.0 (2017 - 11 - 15)</span></a></li></ol></li></ol>
     </div>
   </span>
 </div>
@@ -135,10 +137,18 @@
 
   <div class="content" itemprop="articleBody">
     <h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This extension provides Quick Save and Quick Load functions to the engine, which allows users to either quick save and quick load by using Commands or using Script Call in UI.</p>
-<h1 id="Download-amp-Install"><a href="#Download-amp-Install" class="headerlink" title="Download &amp; Install"></a>Download &amp; Install</h1><p><a href="https://drive.google.com/open?id=17i7c3n-qY_MBZ2BZcjqrzgrESEsGqfP-" target="_blank" rel="external">Download</a></p>
+<blockquote>
+<ul>
+<li>Requires <a href="http://vnm.yami.moe/2017/11/17/core-engine">Core Engine</a>.</li>
+</ul>
+</blockquote>
+<h1 id="Download-amp-Install"><a href="#Download-amp-Install" class="headerlink" title="Download &amp; Install"></a>Download &amp; Install</h1><p><a href="https://drive.google.com/open?id=17i7c3n-qY_MBZ2BZcjqrzgrESEsGqfP-" target="_blank" rel="noopener">Download</a></p>
 <p>Use <code>Extension Manager</code> to install the zip file.</p>
 <h1 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h1><h2 id="Added-commands"><a href="#Added-commands" class="headerlink" title="Added commands"></a>Added commands</h2><p>Those commands are added into Scene Commands List and can be used for eventing UI.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">System</span><br><span class="line">  | Save &amp; Load</span><br><span class="line">    &gt; Quick Save</span><br><span class="line">    &gt; Quick Load</span><br></pre></td></tr></table></figure></p>
 <h2 id="Layout-Actions"><a href="#Layout-Actions" class="headerlink" title="Layout Actions"></a>Layout Actions</h2><p>Those actions can be used with Layout Elements (such as <code>ui.Text</code>).<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123; <span class="string">"name"</span> : <span class="string">"quickSave"</span> &#125;</span><br><span class="line">&#123; <span class="string">"name"</span> : <span class="string">"quickLoad"</span> &#125;</span><br></pre></td></tr></table></figure></p>
+<h1 id="Version"><a href="#Version" class="headerlink" title="Version"></a>Version</h1><h2 id="v1-0-0-0-2017-11-15"><a href="#v1-0-0-0-2017-11-15" class="headerlink" title="v1.0.0.0 (2017 - 11 - 15)"></a>v1.0.0.0 (2017 - 11 - 15)</h2><ul>
+<li>First Release.</li>
+</ul>
 
   </div>
 </article>
@@ -165,7 +175,7 @@
     </div>
 
     <div id="toc-footer" style="display: none">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Introduction"><span class="toc-number">1.</span> <span class="toc-text">Introduction</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Download-amp-Install"><span class="toc-number">2.</span> <span class="toc-text">Download & Install</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#How-to-use"><span class="toc-number">3.</span> <span class="toc-text">How to use</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Added-commands"><span class="toc-number">3.1.</span> <span class="toc-text">Added commands</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Layout-Actions"><span class="toc-number">3.2.</span> <span class="toc-text">Layout Actions</span></a></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Introduction"><span class="toc-number">1.</span> <span class="toc-text">Introduction</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Download-amp-Install"><span class="toc-number">2.</span> <span class="toc-text">Download & Install</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#How-to-use"><span class="toc-number">3.</span> <span class="toc-text">How to use</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Added-commands"><span class="toc-number">3.1.</span> <span class="toc-text">Added commands</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Layout-Actions"><span class="toc-number">3.2.</span> <span class="toc-text">Layout Actions</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Version"><span class="toc-number">4.</span> <span class="toc-text">Version</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#v1-0-0-0-2017-11-15"><span class="toc-number">4.1.</span> <span class="toc-text">v1.0.0.0 (2017 - 11 - 15)</span></a></li></ol></li></ol>
     </div>
 
     <div id="share-footer" style="display: none">

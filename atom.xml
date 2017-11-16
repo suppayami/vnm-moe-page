@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://vnm.yami.moe/"/>
-  <updated>2017-11-14T23:02:58.408Z</updated>
+  <updated>2017-11-16T23:00:04.966Z</updated>
   <id>http://vnm.yami.moe/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Core Engine</title>
+    <link href="http://vnm.yami.moe/2017/11/17/core-engine/"/>
+    <id>http://vnm.yami.moe/2017/11/17/core-engine/</id>
+    <published>2017-11-16T22:18:42.000Z</published>
+    <updated>2017-11-16T23:00:04.966Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This extension is required by all Moe Engine Extensions. It includes all user experience improvements and fixes some problems in VNM engine. The fixes and improvements are able to toggle on/off easily.</p><blockquote><ul><li>More improvements and bugfixes will be shipped as the extension updated.</li><li>This Extension is required by all other extensions in Moe Engine.</li></ul></blockquote><h1 id="Download-amp-Install"><a href="#Download-amp-Install" class="headerlink" title="Download &amp; Install"></a>Download &amp; Install</h1><p><a href="https://drive.google.com/open?id=1KR00FRlCQtve6GhwpEBlIAIMCEzgVVSW" target="_blank" rel="noopener">Download</a></p><p>Use <code>Extension Manager</code> to install the zip file.</p><h1 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h1><p>Open <code>Database</code> in VNM and configure in <code>Moe - Core Engine</code>.</p><h1 id="Version"><a href="#Version" class="headerlink" title="Version"></a>Version</h1><h2 id="v1-0-0-0-2017-11-17"><a href="#v1-0-0-0-2017-11-17" class="headerlink" title="v1.0.0.0 (2017 - 11 - 17)"></a>v1.0.0.0 (2017 - 11 - 17)</h2><ul><li>First Release.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h1&gt;&lt;p&gt;This extension is required by 
+      
+    
+    </summary>
+    
+    
+      <category term="plugins" scheme="http://vnm.yami.moe/tags/plugins/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Quick Save</title>
     <link href="http://vnm.yami.moe/2017/11/15/quick-save/"/>
     <id>http://vnm.yami.moe/2017/11/15/quick-save/</id>
     <published>2017-11-14T22:56:54.000Z</published>
-    <updated>2017-11-14T23:02:58.408Z</updated>
+    <updated>2017-11-16T23:00:57.781Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This extension provides Quick Save and Quick Load functions to the engine, which allows users to either quick save and quick load by using Commands or using Script Call in UI.</p><h1 id="Download-amp-Install"><a href="#Download-amp-Install" class="headerlink" title="Download &amp; Install"></a>Download &amp; Install</h1><p><a href="https://drive.google.com/open?id=17i7c3n-qY_MBZ2BZcjqrzgrESEsGqfP-" target="_blank" rel="external">Download</a></p><p>Use <code>Extension Manager</code> to install the zip file.</p><h1 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h1><h2 id="Added-commands"><a href="#Added-commands" class="headerlink" title="Added commands"></a>Added commands</h2><p>Those commands are added into Scene Commands List and can be used for eventing UI.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">System</span><br><span class="line">  | Save &amp; Load</span><br><span class="line">    &gt; Quick Save</span><br><span class="line">    &gt; Quick Load</span><br></pre></td></tr></table></figure></p><h2 id="Layout-Actions"><a href="#Layout-Actions" class="headerlink" title="Layout Actions"></a>Layout Actions</h2><p>Those actions can be used with Layout Elements (such as <code>ui.Text</code>).<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123; <span class="string">"name"</span> : <span class="string">"quickSave"</span> &#125;</span><br><span class="line">&#123; <span class="string">"name"</span> : <span class="string">"quickLoad"</span> &#125;</span><br></pre></td></tr></table></figure></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This extension provides Quick Save and Quick Load functions to the engine, which allows users to either quick save and quick load by using Commands or using Script Call in UI.</p><blockquote><ul><li>Requires <a href="http://vnm.yami.moe/2017/11/17/core-engine">Core Engine</a>.</li></ul></blockquote><h1 id="Download-amp-Install"><a href="#Download-amp-Install" class="headerlink" title="Download &amp; Install"></a>Download &amp; Install</h1><p><a href="https://drive.google.com/open?id=17i7c3n-qY_MBZ2BZcjqrzgrESEsGqfP-" target="_blank" rel="noopener">Download</a></p><p>Use <code>Extension Manager</code> to install the zip file.</p><h1 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h1><h2 id="Added-commands"><a href="#Added-commands" class="headerlink" title="Added commands"></a>Added commands</h2><p>Those commands are added into Scene Commands List and can be used for eventing UI.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">System</span><br><span class="line">  | Save &amp; Load</span><br><span class="line">    &gt; Quick Save</span><br><span class="line">    &gt; Quick Load</span><br></pre></td></tr></table></figure></p><h2 id="Layout-Actions"><a href="#Layout-Actions" class="headerlink" title="Layout Actions"></a>Layout Actions</h2><p>Those actions can be used with Layout Elements (such as <code>ui.Text</code>).<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123; <span class="string">"name"</span> : <span class="string">"quickSave"</span> &#125;</span><br><span class="line">&#123; <span class="string">"name"</span> : <span class="string">"quickLoad"</span> &#125;</span><br></pre></td></tr></table></figure></p><h1 id="Version"><a href="#Version" class="headerlink" title="Version"></a>Version</h1><h2 id="v1-0-0-0-2017-11-15"><a href="#v1-0-0-0-2017-11-15" class="headerlink" title="v1.0.0.0 (2017 - 11 - 15)"></a>v1.0.0.0 (2017 - 11 - 15)</h2><ul><li>First Release.</li></ul>]]></content>
     
     <summary type="html">
     
