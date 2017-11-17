@@ -7,8 +7,8 @@
     </url>
 
     <url>
-        <loc>http://vnm.yami.moe/2017/11/15/quick-save/</loc>
-        <lastmod>2017-11-16T23:00:57.781Z</lastmod>
+        <loc>http://vnm.yami.moe/2017/11/17/camera-extension/</loc>
+        <lastmod>2017-11-17T03:20:38.422Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -16,7 +16,15 @@
 
     <url>
         <loc>http://vnm.yami.moe/2017/11/17/core-engine/</loc>
-        <lastmod>2017-11-16T23:00:04.966Z</lastmod>
+        <lastmod>2017-11-17T03:18:22.325Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://vnm.yami.moe/2017/11/15/quick-save/</loc>
+        <lastmod>2017-11-16T23:00:57.781Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://vnm.yami.moe/"/>
-  <updated>2017-11-16T23:00:04.966Z</updated>
+  <updated>2017-11-17T03:20:38.422Z</updated>
   <id>http://vnm.yami.moe/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Camera Extension</title>
+    <link href="http://vnm.yami.moe/2017/11/17/camera-extension/"/>
+    <id>http://vnm.yami.moe/2017/11/17/camera-extension/</id>
+    <published>2017-11-17T03:16:26.000Z</published>
+    <updated>2017-11-17T03:20:38.422Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This extension adds more functions to game camera, such as manipulate camera for each layer (backgrounds, pictures or characters) instead of the whole screen.</p><blockquote><ul><li>Requires <a href="http://vnm.yami.moe/2017/11/17/core-engine">Core Engine</a>.</li></ul></blockquote><h1 id="Download-amp-Install"><a href="#Download-amp-Install" class="headerlink" title="Download &amp; Install"></a>Download &amp; Install</h1><p><a href="https://drive.google.com/open?id=1xE9to6CLY4O2nPPToxPPy4Pdf3oBQXm2" target="_blank" rel="noopener">Download</a></p><p>Use <code>Extension Manager</code> to install the zip file.</p><h1 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h1><h2 id="Added-Commands"><a href="#Added-Commands" class="headerlink" title="Added Commands"></a>Added Commands</h2><p>Those commands are added into Scene Commands List.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Screen</span><br><span class="line">  | Camera</span><br><span class="line">    &gt; Pan Layer</span><br><span class="line">    &gt; Zoom Layer</span><br><span class="line">    &gt; Rotate Layer</span><br></pre></td></tr></table></figure></p><h1 id="Version"><a href="#Version" class="headerlink" title="Version"></a>Version</h1><h2 id="v1-0-0-0-2017-11-17"><a href="#v1-0-0-0-2017-11-17" class="headerlink" title="v1.0.0.0 (2017 - 11 - 17)"></a>v1.0.0.0 (2017 - 11 - 17)</h2><ul><li>First Release.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h1&gt;&lt;p&gt;This extension adds more funct
+      
+    
+    </summary>
+    
+    
+      <category term="plugins" scheme="http://vnm.yami.moe/tags/plugins/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Core Engine</title>
     <link href="http://vnm.yami.moe/2017/11/17/core-engine/"/>
     <id>http://vnm.yami.moe/2017/11/17/core-engine/</id>
     <published>2017-11-16T22:18:42.000Z</published>
-    <updated>2017-11-16T23:00:04.966Z</updated>
+    <updated>2017-11-17T03:18:22.325Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This extension is required by all Moe Engine Extensions. It includes all user experience improvements and fixes some problems in VNM engine. The fixes and improvements are able to toggle on/off easily.</p><blockquote><ul><li>More improvements and bugfixes will be shipped as the extension updated.</li><li>This Extension is required by all other extensions in Moe Engine.</li></ul></blockquote><h1 id="Download-amp-Install"><a href="#Download-amp-Install" class="headerlink" title="Download &amp; Install"></a>Download &amp; Install</h1><p><a href="https://drive.google.com/open?id=1KR00FRlCQtve6GhwpEBlIAIMCEzgVVSW" target="_blank" rel="noopener">Download</a></p><p>Use <code>Extension Manager</code> to install the zip file.</p><h1 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h1><p>Open <code>Database</code> in VNM and configure in <code>Moe - Core Engine</code>.</p><h1 id="Version"><a href="#Version" class="headerlink" title="Version"></a>Version</h1><h2 id="v1-0-0-0-2017-11-17"><a href="#v1-0-0-0-2017-11-17" class="headerlink" title="v1.0.0.0 (2017 - 11 - 17)"></a>v1.0.0.0 (2017 - 11 - 17)</h2><ul><li>First Release.</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This extension is required by all Moe Engine Extensions. It includes all user experience improvements and fixes some problems in VNM engine. The fixes and improvements are able to toggle on/off easily.</p><blockquote><ul><li>More improvements and bugfixes will be shipped as the extension updated.</li><li>This Extension is required by all other extensions in Moe Engine.</li></ul></blockquote><h1 id="Download-amp-Install"><a href="#Download-amp-Install" class="headerlink" title="Download &amp; Install"></a>Download &amp; Install</h1><p><a href="https://drive.google.com/open?id=1KR00FRlCQtve6GhwpEBlIAIMCEzgVVSW" target="_blank" rel="noopener">Download</a></p><p>Use <code>Extension Manager</code> to install the zip file.</p><h1 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h1><p>Open <code>Database</code> in VNM and configure in <code>Moe - Core Engine</code>.</p><h1 id="Known-Issues"><a href="#Known-Issues" class="headerlink" title="Known Issues"></a>Known Issues</h1><ol><li>There is a <code>New Record</code> in <code>Moe - Core Engine</code> Database, delete it to make sure this works.</li><li>Sometimes the folder in Game Scripts <code>Moe - Core Engine</code> gets below script <code>Main</code>, drag and drop that folder above <code>Main</code> and all other <code>Moe Extensions</code>.</li></ol><h1 id="Version"><a href="#Version" class="headerlink" title="Version"></a>Version</h1><h2 id="v1-0-0-0-2017-11-17"><a href="#v1-0-0-0-2017-11-17" class="headerlink" title="v1.0.0.0 (2017 - 11 - 17)"></a>v1.0.0.0 (2017 - 11 - 17)</h2><ul><li>First Release.</li></ul>]]></content>
     
     <summary type="html">
     
