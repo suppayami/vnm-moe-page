@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://vnm.yami.moe/"/>
-  <updated>2017-11-17T03:20:38.422Z</updated>
+  <updated>2017-12-21T20:39:09.354Z</updated>
   <id>http://vnm.yami.moe/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Message Styles</title>
+    <link href="http://vnm.yami.moe/2017/12/21/message-style/"/>
+    <id>http://vnm.yami.moe/2017/12/21/message-style/</id>
+    <published>2017-12-21T20:37:45.000Z</published>
+    <updated>2017-12-21T20:39:09.354Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This extension provides more message styles and visuals. Should be placed under any message layout/style script.</p><blockquote><ul><li>Requires <a href="http://vnm.yami.moe/2017/11/17/core-engine">Core Engine</a>.</li></ul></blockquote><h1 id="Download-amp-Install"><a href="#Download-amp-Install" class="headerlink" title="Download &amp; Install"></a>Download &amp; Install</h1><p><a href="https://drive.google.com/open?id=1i4-LKdftiNBkZ0AXtx8FtJhloit6RNCv" target="_blank" rel="noopener">Download</a></p><p>Use <code>Extension Manager</code> to install the zip file.</p><h1 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h1><h2 id="Added-Link-Styles"><a href="#Added-Link-Styles" class="headerlink" title="Added Link Styles"></a>Added Link Styles</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">These styles are used for Stylable Link, such as SLK and LabelSLK. See the Styles and config things between Start Font Setting and End Font Setting.</span><br><span class="line"></span><br><span class="line"> For ADV (Default Message Style)</span><br><span class="line">  10000 - Underlined link</span><br><span class="line">  10001 - Secret Link (Hover to underlined)</span><br><span class="line">  10002 - Secret Link (Hover to glow)</span><br><span class="line">  10003 - Underlined link with Hover Glow</span><br><span class="line"></span><br><span class="line"> For NVL (Novel Message Style)</span><br><span class="line">  20000 - Underlined link</span><br><span class="line">  20001 - Secret Link (Hover to underlined)</span><br><span class="line">  20002 - Secret Link (Hover to glow)</span><br><span class="line">  20003 - Underlined link with Hover Glow</span><br></pre></td></tr></table></figure><h1 id="Version"><a href="#Version" class="headerlink" title="Version"></a>Version</h1><h2 id="v1-0-3-0-2017-12-21"><a href="#v1-0-3-0-2017-12-21" class="headerlink" title="v1.0.3.0 (2017 - 12 - 21)"></a>v1.0.3.0 (2017 - 12 - 21)</h2><ul><li>First Release.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h1&gt;&lt;p&gt;This extension provides more m
+      
+    
+    </summary>
+    
+    
+      <category term="plugins" scheme="http://vnm.yami.moe/tags/plugins/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Message Extension</title>
+    <link href="http://vnm.yami.moe/2017/12/21/message-extension/"/>
+    <id>http://vnm.yami.moe/2017/12/21/message-extension/</id>
+    <published>2017-12-21T20:35:50.000Z</published>
+    <updated>2017-12-21T20:37:39.253Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This extension provides more tokens/code for message, allows users customizing the messages and interactions with text.</p><blockquote><ul><li>Requires <a href="http://vnm.yami.moe/2017/11/17/core-engine">Core Engine</a>.</li></ul></blockquote><h1 id="Download-amp-Install"><a href="#Download-amp-Install" class="headerlink" title="Download &amp; Install"></a>Download &amp; Install</h1><p><a href="https://drive.google.com/open?id=1dwxyzemWwIOrjTI_DwEwSaJfyAz4D-11" target="_blank" rel="noopener">Download</a></p><p>Use <code>Extension Manager</code> to install the zip file.</p><h1 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h1><h2 id="Added-Message-Tokens"><a href="#Added-Message-Tokens" class="headerlink" title="Added Message Tokens"></a>Added Message Tokens</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;LabelLK:LabelName&#125;Link Text&#123;LabelLK:E&#125;</span><br><span class="line">  - Click the `Link Text` will Jump To Label `LabelName`</span><br><span class="line"></span><br><span class="line">&#123;LabelSLK:LabelName,id&#125;Link Text&#123;LabelSLK:E&#125;</span><br><span class="line">  - Click the `Link Text` will Jump To Label `LabelName`</span><br><span class="line">  - Styled with style `hyperlink-id`, or `hyperlink` if id is not defined</span><br></pre></td></tr></table></figure><h1 id="Version"><a href="#Version" class="headerlink" title="Version"></a>Version</h1><h2 id="v1-0-3-0-2017-12-21"><a href="#v1-0-3-0-2017-12-21" class="headerlink" title="v1.0.3.0 (2017 - 12 - 21)"></a>v1.0.3.0 (2017 - 12 - 21)</h2><ul><li>First Release.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h1&gt;&lt;p&gt;This extension provides more t
+      
+    
+    </summary>
+    
+    
+      <category term="plugins" scheme="http://vnm.yami.moe/tags/plugins/"/>
+    
+  </entry>
   
   <entry>
     <title>Camera Extension</title>
